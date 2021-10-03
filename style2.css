@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* { 
+    font-family: 'Roboto', sans-serif;
+    }
+
+body{
+    background: #1B1717; 
+    color: white;
+    margin: 0;
+}
+
+h1{
+  font-family: 'Fleur De Leah', cursive;
+  font-size: 100px;
+  text-align: center;
+  color: #EEEBDD;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+video{
+   width: 90%; 
+   max-height: 400px;
+   justify-content: center;
+   opacity: 0.9;
+   margin-left: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+}
+
+#navList{
+  margin: 0;
+  text-align: right;
+}
+
+.navItem{
+   list-style: none; 
+   display: inline;
+   margin-right: 5%;
+   line-height: 10;
+}
+
+.navItem:hover{
+  background-color: #630000;
+}
+
+#image{
+    max-width: 100%;
+    width: 200px;
+    margin: 40px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.card{
+    display: inline-block;
+    margin-bottom: 70px;
+}
+
+#moviePoster{
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: center;
+}
+
+#information {
+  width: 200px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 40px;
+  color:lightgray;
+  font-size: 8px;
+}
+
+#information:hover {
+  width: 200px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 40px;
+  font-size: 16px;
+  color: white;
+}
+
+.row{
+    margin-left: 100px;
+    justify-content:center;
+}
+
+h5{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+#form{
+    border: 1px solid white;
+    border-radius: 10px;
+    max-width: 50%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.formContainer{
+    width: 100%;   
+    margin-left: 25%;
+}
+
+.form h2{
+    font-size: 24px;
+    letter-spacing: 4px;
+    color: white;
+  }
+ 
+.form input, select{
+      inline-size: 90%;
+      border:1px solid lightgray ;
+      color:grey;
+      border-radius: 8px;
+      font-size: 16px;
+      margin-block-end:24px;
+}
+
+#name {
+  text-align: center;
+  height: 25px;
+}
+
+#email {
+  text-align: center;
+  height: 25px;
+}
+
+#gender {
+  text-align: center;
+  height: 25px;
+}
+
+.form input[type="submit"]{
+    color: white;
+    background:#630000;
+    border: 1px solid lightgray;
+    width: 25%;
+    height: 30px;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+
+  footer:hover{
+    height: 30px;
+    font-size: 120%;
+  }
+
+.followUs{
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px; 
+}
+
+.followUs h2{
+  font-size: 24px;
+  letter-spacing: 4px;
+  color: white;
+}
+
+.links{
+    list-style-type: none;
+    line-height: 2;
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 640px) {
+
+  #navList{
+     margin-right:0%;
+     margin-left: 35%;
+     display: inline;
+   }
+
+  main{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body{
+    max-width: 80%;
+    padding:0
+  }  
+
+  
+  video{
+    max-width: 100%;
+    margin-left: 12%;
+  }

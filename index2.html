@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="style2.css">
+  <title>Cinema Paradiso</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Cinema Paradiso</h1>
+    <nav>
+      <ul id="navList">
+        <li class="navItem"><a href="#">Home</a></li>
+        <li class="navItem"><a href="#form">Join Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <video loop autoplay src="./multimedia/FilmNoir.mp4" controls></video>
+
+    <div class="row" id="items">
+      <template id="moviePoster">
+        <div class="card">
+          <h5 id="movieTitle"></h5>
+          <img id="image" src="" alt=""></img>
+          <div id="information">
+          <p id="year"></p>
+          <p id="country"></p>
+          <p id="director"></p>
+          <p id="synopsis"></p>
+          </div>
+        </div>
+      </template>   
+    </div>
+    
+    <div class="formContainer">
+          <form action="" class="form" id="form" onsubmit="">
+              <h2>Join us</h2>
+              <input id="name" type="text" placeholder="Enter name" required >
+              <input id="email" type="Email" name="email" placeholder="Enter e-mail" required>
+              <select name="gender" id="gender">
+                  <option value="F">Female</option>
+                  <option value="M">Male</option>
+                  <option value="O">Other</option>
+              </select>
+              <input id="submit" type="submit" value="Submit">
+          </form>
+      </div>
+
+  </main>
+
+  <section class="followUs">
+    <h2>Follow us</h2>
+    <ul class="links">
+      <li><a href="#" target="_blank">Twitter</a></li>
+      <li><a href="#" target="_blank">Youtube</a></li>
+      <li><a href="#" target="_blank">Instagram</a></li>
+    </ul>
+  </section>
+
+  <footer>&copy; All rights reserved</footer>
+
+  <script src="script2.js" type="module"></script>
+  <script src="data2.js" type="module"></script>
+</body>
+
+</html>
